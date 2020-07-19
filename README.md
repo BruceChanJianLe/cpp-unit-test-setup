@@ -14,7 +14,16 @@ cmake ..
 make
 ```
 
-If you use vscode, just use the cmake tool extension instead.
+If you use vscode, just use the cmake tool extension instead.  
+But if you would like to use C++ testmate extension you will have to add this line to the `settings.json`
+```json
+{
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "C_Cpp.errorSquiggles": "Enabled",
+    "testMate.cpp.test.executables": "build-vscode/test/CheckoutTest"
+}
+```
+You will have to provide the absolute path to the file that you would like to test.
 
 ## Folder structure
 
