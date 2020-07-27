@@ -55,3 +55,7 @@ cpp-unit-test-setup/build-vscode/test
 ```
 
 If you do not file it there, mean you have not make it. Do a `make` command will do (if the make files are there).
+
+## Reference
+
+- Setting up cmake and googletest on vscode [link](https://www.youtube.com/watch?v=Lp1ifh9TuFI)
