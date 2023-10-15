@@ -56,6 +56,13 @@ cpp-unit-test-setup/build-vscode/test
 
 If you do not file it there, mean you have not make it. Do a `make` command will do (if the make files are there).
 
+## WARNINGS
+
+- Always run all tests with ASAN (address sanitizer enabled)
+- Always run both Release and Debug builds with ASAN with tests
+
+Ref: https://www.youtube.com/watch?v=4pKtPWcl1Go&ab_channel=C%2B%2BWeeklyWithJasonTurner
+
 ## Reference
 
 - Setting up cmake and googletest on vscode [link](https://www.youtube.com/watch?v=Lp1ifh9TuFI)
