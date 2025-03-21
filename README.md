@@ -1,3 +1,10 @@
+REFER TO [cpp-googletest](https://github.com/BruceChanJianLe/cpp-googletest)
+
+# DEPRECATED!
+# DEPRECATED!!
+# DEPRECATED!!!
+# DEPRECATED!!!!
+
 # CPP Unit Test Setup
 
 This is a Unit Test setup with cmake which anyone can start their testing work with. It can also act as a reference for future work.
